@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  dc1:
+    image: dc1
+    build:
+      context: ./DC1
+      dockerfile: Dockerfile
